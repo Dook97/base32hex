@@ -1,0 +1,19 @@
+base32hex
+
+============================================================
+
+base32 from RFC 4648 implemented in the form of a
+commandline tool.
+
+Use like so:
+
+$ base32hex encode <stallman_copypasta.txt
+$ base32hex decode <base32hex_encoded_file
+
+Algo is from the knot-dns[1] project and so is the LICENSE.
+
+Build with make.
+
+============================================================
+
+[1] https://knot-dns.cz
